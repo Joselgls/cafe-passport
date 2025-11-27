@@ -1,5 +1,11 @@
 // app/passport/page.tsx
 
+import PassportApp from "./app/PassportApp";
+
+export default function PassportPage() {
+  return <PassportApp />;
+}
+
 export default function PassportPage() {
   return (
     <main
