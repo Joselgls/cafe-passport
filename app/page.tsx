@@ -6,7 +6,7 @@ export default function PassportPage() {
   return <PassportApp />;
 }
 
-export default function PassportPage() {
+//export default function PassportPage() {
   return (
     <main
       style={{
