@@ -1,6 +1,6 @@
 // app/passport/page.tsx
 
-import PassportApp from "./app/PassportApp";
+import PassportApp from "@/app/PassportApp";
 
 export default function PassportPage() {
   return <PassportApp />;
