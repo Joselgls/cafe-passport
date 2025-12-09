@@ -1,13 +1,13 @@
 "use client";
 
-//import { useState } from 'react';
-//import { IndexPage } from '@/app/components/IndexPage';
-//import { CafeEntryPage } from '@/app/components/CafeEntryPage';
-//import { StampModal } from '@/app/components/StampModal';
-//import { ClosedBook } from '@/app/components/ClosedBook';
-//import { mockCafes } from '@/app/data/mockCafes';
+import { useState } from 'react';
+import { IndexPage } from '@/app/components/IndexPage';
+import { CafeEntryPage } from '@/app/components/CafeEntryPage';
+import { StampModal } from '@/app/components/StampModal';
+import { ClosedBook } from '@/app/components/ClosedBook';
+import { mockCafes } from '@/app/data/mockCafes';
 
-export default function App() {
+export default function PassportApp() {
   const [bookOpen, setBookOpen] = useState(false);
   const [selectedCafeId, setSelectedCafeId] = useState<string>('cafe-001');
   const [isStampModalOpen, setIsStampModalOpen] = useState(false);
