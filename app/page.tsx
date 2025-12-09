@@ -2,7 +2,7 @@
 
 import PassportApp from "@/app/PassportApp";
 
-export default function PassportPage() {
+export default function Passport() {
   return <PassportApp />;
 }
 
